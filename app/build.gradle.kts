@@ -7,6 +7,7 @@ plugins {
  def apikeyProperties = new Properties()
  apikeyProperties.load(new FileInputStream(apikeyPropertiesFile))
 
+
 android {
     namespace = "id.ac.polbeng.noviraasnani.githubprofile"
     compileSdk = 35
